@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head> 
+
+<body>
+
+    <header>     
+        <h1 class="mainheading" style="color: rgb(31, 84, 85);">Book Management System</h1>
+
+        <nav>
+            <div class="nav1">
+                <a href="addBook.html">ADD BOOK</a>
+                | <a href="#">HOME</a>
+                | <a type="submit" id="showlist"  href="#">SHOW LIST</a>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+    <hr>
+    <h2 class="heading2">Book List</h2>
+
+    <div class="searchingbar" >
+        <form>
+
+            <label for="">Search Book By :Id | Title | Author |</label>
+            <select name="choose" id="choose" form="bookform">
+                <option value="id" id="">ID</option>
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="price">Price</option>
+            </select>
+
+
+        </form>
+
+        <form>
+            <input type="=text" id="mySearch" placeholder="Search......" title="Type in category">
+            <button type="submit" id="searchbtn" onclick="searchListById()">Search</button>
+
+        </form>
+    
+    <br>
+    <br>
+
+    <div class="tab">
+        <table id="tableid-showtable">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Rating</th>
+                <th>Action</th>
+            </tr>
+
+            </thead>
+
+            <tbody id="book-list"></tbody>
+
+        </table>
+    </div>
+    <script src="../dist/main.js"></script>
+</body>
+
+</html>

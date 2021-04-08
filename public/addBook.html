@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Book Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1 class="mainheading" style="color: rgb(31, 84, 85);">Book Management System</h1>
+
+        <nav>
+            <div class="nav1">
+                <a href="addBook.html">ADD BOOK</a>
+                | <a href="home.html">HOME</a>
+            </div>
+        </nav>     
+    </header>
+    <h2 class="heading1">Add Book</h2>
+
+    <div class="wrapper">
+        <form class="new-item-form" method="GET" id="addform" >
+            <label for="id"  ="labelfield">Id :</label>
+            <input type="number" id="id" name="id" class="inputfield">
+
+            <label for="id" class ="labelfield">Title :</label>
+            <input type="text" id="title" name="title" class="inputfield">
+
+            <label for="author" class ="labelfield">Author :</label>
+            <input type="text" id="author" name="author" class="inputfield">
+            
+            <label for="price" class ="labelfield">Price :</label>
+            <input type="numnber" id="price" name="author" class="inputfield">
+            
+            <label for="rating" class ="labelfield">Rating :</label>
+            <input type="number" min="0" max="5" id="rating" name="rating" class="inputfield">
+            
+            <label for="details" class ="labelfield">Details :</label>
+            <input type="text" id="details" name="details" class="inputfield">
+            
+            <input type="submit" id="addbook" value="Add" name="submit">
+        </form>
+    </div>
+    <script src="../dist/main.js"></script>
+</body>
+</html>
