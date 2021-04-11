@@ -1,0 +1,82 @@
+header{
+    background-color: lightskyblue;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+  }
+  nav{
+      background-color: lightskyblue;
+      padding: 10px;
+      text-align: right;
+      font-size: 20px;
+      color: white;
+  }
+  
+  body{
+      line-height: 1.2;
+      margin: 2px;
+      background-color: lightgray;
+      padding:10px;
+  }
+  
+  table,th,td{
+      background-color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+      color: black;
+      
+  }
+  
+  #tableid-showtable {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    #tableid-showtable td, #tableid-showtable th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    #tableid-showtable tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #tableid-showtable tr:hover {background-color: #ddd;}
+    
+    #tableid-showtable th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+    }
+    
+  #searchbtn{
+      background-color: lightgreen;
+  }
+  .searchingbar{
+      text-align: center;
+      
+  }
+  .wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      height: 400px;
+      width: 400px;
+      background-color: lightblue;
+      border-radius: 10px;
+  }
+  form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  h2.heading2{
+      text-align: center;
+      width:fit-content;
+  }
+  
+  

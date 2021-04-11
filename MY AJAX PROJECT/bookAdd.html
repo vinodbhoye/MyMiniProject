@@ -1,0 +1,25 @@
+
+    <div class="wrapper">
+        <form class="new-item-form" id="addnewbook" method="POST" action="http://localhost:3000/Books" >
+            <label for="id"  class="labelfield">Id :</label>
+            <input type="number" id="id" name="id" class="inputfield">
+
+            <label for="id" class ="labelfield">Title :</label>
+            <input type="text" id="title" name="title" class="inputfield">
+
+            <label for="author" class ="labelfield">Author :</label>
+            <input type="text" id="author" name="author" class="inputfield">
+            
+            <label for="price" class ="labelfield">Price :</label>
+            <input type="numnber" id="price" name="price" class="inputfield">
+            
+            <label for="rating" class ="labelfield">Rating :</label>
+            <input type="number" min="0" max="5" id="rate" name="rate" class="inputfield">
+            
+            <label for="details" class ="labelfield">Details :</label>
+            <input type="text" id="details" name="details" class="inputfield">
+            
+            <button type="submit" id="formSubmitBtn" onclick="create(event)">Submit</button>
+
+        </form>
+    </div>
