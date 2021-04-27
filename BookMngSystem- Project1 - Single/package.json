@@ -1,0 +1,21 @@
+{
+  "name": "MiniProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "complie:sass": "node-sass public/main.scss public/style.css"
+
+  },
+  "keywords": [],
+  "author": "PC",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.3",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
